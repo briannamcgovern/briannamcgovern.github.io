@@ -1,0 +1,56 @@
+/* Color Scheme */
+:root {
+	--main-bg-color: #4B4453;
+	--main-secondary-bg-color: #6D6575;
+	--accent-color-dark: #D0A7FF;
+	--accent-color-light: #DEC0FF;
+	--secondary-accent-color: #B1A8B9;
+	--tertiary-accent-color: #00C9AA;
+	--secondary-bg-color: #B1A8B9;
+	--secondary-text-color: white;
+}
+
+/* Disable text select */
+* {
+  -webkit-user-select: none; /* Safarzi */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* Grid template */
+* {
+  box-sizing: border-box;
+}
+.grid-2{
+	grid-template-columns: 1fr;
+	padding-top: 40px;
+}
+.section-1{
+	padding:0;
+}
+.section-2{
+	padding: 0;
+	padding-left: 1.5rem;
+	padding-top: 2rem;
+}
+
+/* Shift anchors up */
+#home {
+  scroll-margin-top: 120px;
+}
+h2 {
+  scroll-margin-top: 80px;
+}
+
+/* Mobile view adjustments */
+@media screen and (max-width: 600px) {
+	li.navigation-item a {
+		padding: 10px 4px;
+	}
+	div.section-2 {
+		padding-left: 0;
+	}
+	.condensed-containter {
+	width: 95%;
+	}
+}
