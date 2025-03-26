@@ -7,9 +7,9 @@ class Footer extends HTMLElement {
                     <div class="social-links">
                         <a href="#"><i class="fab fa-github"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                     <p>&copy; 2024 Brianna McGovern. All rights reserved.</p>
+                    <p class="attribution">Code by Cursor AI, Prompted by Brianna McGovern</p>
                 </div>
             </footer>
         `;

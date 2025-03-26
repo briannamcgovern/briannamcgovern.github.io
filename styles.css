@@ -286,6 +286,12 @@ footer {
     color: var(--primary-color);
 }
 
+.attribution {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.5rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
