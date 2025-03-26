@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Brianna McGovern</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav-component></nav-component>
+
+    <section class="blog-section">
+        <div class="container">
+            <h1>Blog</h1>
+            <div class="tag-filter">
+                <button class="tag-btn active" data-tag="all">All</button>
+                <button class="tag-btn" data-tag="technology">Technology</button>
+                <button class="tag-btn" data-tag="career">Career</button>
+                <button class="tag-btn" data-tag="personal">Personal</button>
+                <button class="tag-btn" data-tag="projects">Projects</button>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <a href="blog/getting-started-web-development.html" class="blog-post-link">
+                    <article class="blog-post" data-tags="technology,career">
+                        <div class="blog-image" style="background-color: var(--primary-color);">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-tags">
+                                <span class="tag">Technology</span>
+                                <span class="tag">Career</span>
+                            </div>
+                            <h2>Getting Started with Web Development</h2>
+                            <p class="blog-date">March 25, 2024</p>
+                            <p class="blog-excerpt">A comprehensive guide to starting your web development journey, from learning the fundamentals to joining the developer community. Learn about different learning paths, essential tools, and practical projects to build your skills.</p>
+                            <span class="read-more">Read More</span>
+                        </div>
+                    </article>
+                </a>
+
+                <!-- Blog Post 2 -->
+                <a href="blog/journey-in-tech.html" class="blog-post-link">
+                    <article class="blog-post" data-tags="personal,career">
+                        <div class="blog-image" style="background-color: var(--secondary-color);">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-tags">
+                                <span class="tag">Personal</span>
+                                <span class="tag">Career</span>
+                            </div>
+                            <h2>My Journey in Tech</h2>
+                            <p class="blog-date">March 20, 2024</p>
+                            <p class="blog-excerpt">Follow my personal story of transitioning into tech, from learning to code to breaking into the industry. Discover valuable lessons learned, current focus areas, and advice for aspiring developers.</p>
+                            <span class="read-more">Read More</span>
+                        </div>
+                    </article>
+                </a>
+
+                <!-- Blog Post 3 -->
+                <a href="blog/modern-web-tools.html" class="blog-post-link">
+                    <article class="blog-post" data-tags="technology">
+                        <div class="blog-image" style="background-color: var(--accent-color);">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-tags">
+                                <span class="tag">Technology</span>
+                            </div>
+                            <h2>Modern Web Development Tools</h2>
+                            <p class="blog-date">March 15, 2024</p>
+                            <p class="blog-excerpt">Explore the essential tools that modern web developers use to build better applications. From code editors to testing frameworks, learn about the tools that can enhance your development workflow.</p>
+                            <span class="read-more">Read More</span>
+                        </div>
+                    </article>
+                </a>
+
+                <!-- Blog Post 4 -->
+                <a href="blog/personal-portfolio-website.html" class="blog-post-link">
+                    <article class="blog-post" data-tags="projects,technology">
+                        <div class="blog-image" style="background-color: var(--primary-color);">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-tags">
+                                <span class="tag">Projects</span>
+                                <span class="tag">Technology</span>
+                            </div>
+                            <h2>Building a Personal Portfolio Website</h2>
+                            <p class="blog-date">March 10, 2024</p>
+                            <p class="blog-excerpt">A detailed look at the process of creating a personal portfolio website, from planning and design to implementation. Learn about technical choices, key features, and best practices for building your online presence.</p>
+                            <span class="read-more">Read More</span>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer-component></footer-component>
+
+    <script src="components/nav.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html> 
