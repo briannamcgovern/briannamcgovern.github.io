@@ -220,6 +220,33 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
+/* Education Section */
+.education-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.education-text p {
+    margin-bottom: 1.5rem;
+}
+
+/* .image-placeholder {
+    width: 400px;
+    height: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
 /* Contact Section */
 .contact-content {
     display: grid;
@@ -323,6 +350,7 @@ footer {
     }
     
     .about-content,
+    .education-content,
     .contact-content {
         grid-template-columns: 1fr;
     }
